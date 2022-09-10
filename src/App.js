@@ -29,21 +29,23 @@ export default function Search() {
   }
 
   let form = (
-    <form className="weatherSearch" onSubmit={handleSearch}>
+    <form onSubmit={handleSearch}>
       <input
+        className="weather-form"
         type="search"
         placeholder="Search"
         autoFocus={true}
         onChange={updateCity}
       />
-      <input type="submit" value="search" />
+      <input className="weather-form" type="submit" value="search" />
     </form>
   );
 
   if (loaded) {
     return (
-      <div className="weather-form">
-        {form}
+      <div>
+        <p className="weatherSearch"> {form}</p>
+
         <ul>
           <li>Current weather in {city}</li>
           <li>Temperature: {Math.round(weather.temperature)}°F</li>

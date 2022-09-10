@@ -7,12 +7,12 @@ h1 {
   margin-top: 20px;
 }
 .weatherSearch {
-  font-size: 40px;
+  font-size: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .weather-form {
-  font-size: 20px;
-  text-align: center;
+  font-size: 30px;
+  text-align: left;
   margin-top: 20px;
 }
 ul {
