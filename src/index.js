@@ -10,6 +10,10 @@ root.render(
   <React.StrictMode>
     <h1>Weather App with React</h1>
     <App />
+    <p>
+      open-source code by{" "}
+      <a href="https://github.com/sweetjosie/shecodes-react">Josie Maia</a>
+    </p>
   </React.StrictMode>
 );
 
