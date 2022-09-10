@@ -4,12 +4,20 @@ import "./index.css";
 import "./App.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import ReactAnimatedWeather from "react-animated-weather";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <h1>Weather App with React</h1>
+
     <App />
+    <ReactAnimatedWeather
+      icon="CLEAR_DAY"
+      color="goldenrod"
+      size={100}
+      animate={true}
+    />
     <p>
       open-source code by{" "}
       <a href="https://github.com/sweetjosie/shecodes-react">Josie Maia</a>
