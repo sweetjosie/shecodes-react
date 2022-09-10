@@ -42,7 +42,7 @@ export default function Search() {
 
   if (loaded) {
     return (
-      <div>
+      <div className="weather-form">
         {form}
         <ul>
           <li>Current weather in {city}</li>

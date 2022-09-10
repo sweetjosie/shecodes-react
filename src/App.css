@@ -1,23 +1,22 @@
 .App {
   text-align: center;
 }
-.h1 {
+h1 {
   font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+.weatherSearch {
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.weather-form {
+  font-size: 20px;
   text-align: center;
   margin-top: 20px;
 }
 ul {
   list-style: none;
   text-align: left;
-}
-
-.App-header {
-  background-color: #aec5f3;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
+  font-family: "Times New Roman", Times, serif;
 }
